@@ -4,9 +4,11 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div>
-      <Link href="/protected">Go to Protected</Link>
+      <Link href="/a">Go to A (SSG)</Link>
       <br />
-      <Link href="/login">Go to Login</Link>
+      <Link href="/b">Go to B (SSG)</Link>
+      <br />
+      <Link href="/c">Go to C (SSR)</Link>
     </div>
   );
 }
